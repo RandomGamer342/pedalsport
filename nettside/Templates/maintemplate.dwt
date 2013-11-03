@@ -7,9 +7,21 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+<div id="logo">
+<img src="../img/logo.png">
+</div>
+<div id="navbar">
+<ul>
+<li><a href="#"><img src="../img/crouton.png"></a></li>
+<li><a href="#"><img src="../img/crouton.png"></a></li>
+<li><a href="#"><img src="../img/crouton.png"></a></li>
+<li><a href="#"><img src="../img/crouton.png"></a></li>
+<li><a href="#"><img src="../img/crouton.png"></a></li>
+</ul>
+</div>
 </body>
 </html>
