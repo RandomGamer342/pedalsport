@@ -12,7 +12,9 @@
 
 <body>
 <div id="logo">
+<a href="index.html">
 <img src="../img/logo.png">
+</a>
 </div>
 <div id="navbar">
 <ul>
@@ -23,5 +25,6 @@
 <li><a href="#"><img src="../img/crouton.png"></a></li>
 </ul>
 </div>
+<!-- TemplateBeginEditable name="EditRegion1" -->stuff<!-- TemplateEndEditable -->
 </body>
 </html>
