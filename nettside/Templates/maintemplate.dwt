@@ -3,7 +3,7 @@
 <head>
 <meta charset="iso-8859-1">
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>Pedalsport</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
@@ -11,20 +11,28 @@
 </head>
 
 <body>
-<div id="logo">
-<a href="index.html">
-<img src="../img/logo.png">
-</a>
-</div>
-<div id="navbar">
-<ul>
-<li><a href="#"><img src="../img/crouton.png"></a></li>
-<li><a href="#"><img src="../img/crouton.png"></a></li>
-<li><a href="#"><img src="../img/crouton.png"></a></li>
-<li><a href="#"><img src="../img/crouton.png"></a></li>
-<li><a href="#"><img src="../img/crouton.png"></a></li>
-</ul>
-</div>
-<!-- TemplateBeginEditable name="EditRegion1" -->stuff<!-- TemplateEndEditable -->
+	<div id="logo">
+		<a href="index.html">
+			<img src="../img/logo.png">
+		</a>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#"><img src="../img/crouton.png"></a></li>
+			<li><a href="#"><img src="../img/crouton.png"></a></li>
+			<li><a href="#"><img src="../img/crouton.png"></a>
+				<ul>
+					<li><a href="#">Tur 1</a></li>
+					<li><a href="#">Tur 2</a></li>
+					<li><a href="#">Tur 3</a></li>
+					<li><a href="#">Tur 4</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#"><img src="../img/crouton.png"></a></li>
+			<li><a href="#"><img src="../img/crouton.png"></a></li>
+		</ul>
+	</nav>
+	<!-- TemplateBeginEditable name="EditRegion1" -->stuff<!-- TemplateEndEditable -->
 </body>
 </html>
