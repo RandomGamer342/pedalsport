@@ -5,7 +5,7 @@ nav > ul {
 	list-style:none;
 	position:relative;
 	display:inline-table;
-	background-color:#0A67FF;
+	background-color:#0B61A4;
 	float:left;
 	width:100%;
 	height:100px;
@@ -17,7 +17,7 @@ nav > ul li {
 }
 
 nav > ul li:hover{
-	background:#0A67AA;
+	background:#1B1BB3;
 }
 
 nav > ul li a {
@@ -108,5 +108,5 @@ nav ul li:hover > ul {
 	border-right:2px solid #002376;
 	border-bottom:2px solid #002376;
 	*/
-	background-color:#0A67FF;
+	background-color:rgb(68, 173, 168);
 }
