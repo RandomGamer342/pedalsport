@@ -1,36 +1,47 @@
 @import url("reset.css");
 @charset "iso-8859-1";
 
+body {
+}
+
+/*No one needs to select the navigation bar*/
+nav {
+	-webkit-touch-callout: none;
+      -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
 nav > ul {
+	padding-left:10px;
 	list-style:none;
 	position:relative;
 	display:inline-table;
 	background-color:#0B61A4;
 	float:left;
 	width:100%;
-	height:103px;
-	left:293px;
-	border-bottom:4px solid #000;
+	left:292px;
+	border-bottom:3px solid #000;
 }
 
-nav > ul li {
-	height:100px;
+nav ul li {
 	float:left;
+	width:105px;
 }
 
-nav > ul li:hover{
-	background:#1B1BB3;
+nav ul li:hover{
+	background:rgb(63, 146, 210);
 }
 
-nav > ul li a {
+nav ul li a {
 	display:block;
-	height:103px;
-	width:103px;
 	color:#000;
 	text-decoration:none;
 }
 
-nav > ul:after {
+nav ul:after {
 	content: "";
 	clear:both;
 	display:block;
@@ -38,26 +49,29 @@ nav > ul:after {
 
 nav ul ul {
 	display:none;
-	background:#0A6700;
+	background:rgb(63, 146, 210);
 	position:absolute;
 	top:100%;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
 }
 
 nav ul ul li {
 	float:none;
-	border-top:2px solid #000;
-	border-bottom:2px solid #000;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	left:0;
 	position:relative;
 }
 
 nav ul ul li a {
-	padding:15px 34px;
-	color: #FFF;
+	color: #000;
+	padding:25px 35px;
 	position:relative;
 }
 
 nav ul ul li a:hover {
-	background-color: #0000FF;
+	background-color: rgb(102, 163, 210);
 }
 
 nav ul li:hover > ul {
@@ -102,6 +116,13 @@ nav ul li:hover > ul {
 */
 
 #logo img {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
 	position:absolute;
 	z-index:1;
 	
@@ -109,8 +130,8 @@ nav ul li:hover > ul {
 	
 	height:93px;
 
-	border-right:4px solid #000;
-	border-bottom:4px solid #000;
+	border-right:3px solid #000;
+	border-bottom:3px solid #000;
 	
 	background-color:rgb(11, 97, 164);
 }
