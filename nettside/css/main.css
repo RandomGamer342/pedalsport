@@ -2,6 +2,7 @@
 @charset "iso-8859-1";
 
 body {
+	line-height: 28px;
 }
 
 /*No one needs to select the navigation bar*/
