@@ -27,7 +27,7 @@ nav > ul {
 	border-bottom:3px solid #000;
 }
 
-nav ul li {
+nav > ul li {
 	float:left;
 	width:105px;
 	height:100px;
@@ -63,6 +63,7 @@ nav ul ul li {
 	border-top:1px solid #000;
 	border-bottom:1px solid #000;
 	left:0;
+	height:100%;
 	position:relative;
 }
 
