@@ -20,7 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	vertical-align: baseline;
+	vertical-align: text-top;
 	font-family: inherit;
 	line-height: 28px;
 }
