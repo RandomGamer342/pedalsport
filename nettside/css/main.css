@@ -1,5 +1,9 @@
 @import url("reset.css");
 @charset "iso-8859-1";
+@font-face {
+	font-family: cooper;
+	src: url('../resources/CooperBlackStd.otf');
+}
 
 body {
 	line-height: 28px;
@@ -104,6 +108,26 @@ nav ul li:hover > ul {
 
 /*Navbar end*/
 
+/*Butikk*/
 table tr td {
 	vertical-align:top;
+}
+
+#shoplist {
+	list-style:none;
+	float:left;
+	width:100%;
+	background-color:rgb(63, 146, 210);
+}
+
+#shoplist li {
+	float:left;
+}
+
+#shoplist li a {
+	display:inline-block;
+	padding:15px 25px;
+	text-decoration:none;
+	color:#000;
+	font-family:cooper, times new roman, times, serif;
 }
