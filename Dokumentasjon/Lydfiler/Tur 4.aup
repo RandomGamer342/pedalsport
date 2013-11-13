@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Tur 4_data" version="1.3.0" audacityversion="2.0.2" sel0="26.1572789116" sel1="26.1572789116" vpos="0" h="24.9846712018" zoom="86.1328125000" rate="44100.0">
+	<tags>
+		<tag name="TITLE" value="Tur 4"/>
+		<tag name="ARTIST" value="Morten"/>
+	</tags>
+	<wavetrack name="Lydspor" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1597440">
+				<waveblock start="0">
+					<simpleblockfile filename="e00000a8.au" len="134144" min="-0.497253" max="0.385345" rms="0.050113"/>
+				</waveblock>
+				<waveblock start="134144">
+					<simpleblockfile filename="e000046c.au" len="134144" min="-0.438873" max="0.336365" rms="0.054897"/>
+				</waveblock>
+				<waveblock start="268288">
+					<simpleblockfile filename="e0000bcf.au" len="175104" min="-0.602692" max="0.471466" rms="0.059006"/>
+				</waveblock>
+				<waveblock start="443392">
+					<simpleblockfile filename="e0000c4d.au" len="251904" min="-0.633545" max="0.521606" rms="0.081896"/>
+				</waveblock>
+				<waveblock start="695296">
+					<simpleblockfile filename="e000077e.au" len="262144" min="-0.847534" max="0.64743" rms="0.072875"/>
+				</waveblock>
+				<waveblock start="957440">
+					<simpleblockfile filename="e0000eee.au" len="162304" min="-0.630615" max="0.446442" rms="0.073532"/>
+				</waveblock>
+				<waveblock start="1119744">
+					<simpleblockfile filename="e0000ad2.au" len="162304" min="-0.813049" max="0.498566" rms="0.067747"/>
+				</waveblock>
+				<waveblock start="1282048">
+					<simpleblockfile filename="e0000d54.au" len="157696" min="-0.786835" max="0.618591" rms="0.077373"/>
+				</waveblock>
+				<waveblock start="1439744">
+					<simpleblockfile filename="e0000570.au" len="157696" min="-0.750183" max="0.416138" rms="0.075674"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Lydspor" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1597440">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000631.au" len="134144" min="-0.497253" max="0.385315" rms="0.050113"/>
+				</waveblock>
+				<waveblock start="134144">
+					<simpleblockfile filename="e00003d0.au" len="134144" min="-0.438843" max="0.336395" rms="0.054897"/>
+				</waveblock>
+				<waveblock start="268288">
+					<simpleblockfile filename="e0000836.au" len="175104" min="-0.602722" max="0.471436" rms="0.059006"/>
+				</waveblock>
+				<waveblock start="443392">
+					<simpleblockfile filename="e0000fd2.au" len="251904" min="-0.633545" max="0.521606" rms="0.081896"/>
+				</waveblock>
+				<waveblock start="695296">
+					<simpleblockfile filename="e0000753.au" len="262144" min="-0.847534" max="0.64743" rms="0.072875"/>
+				</waveblock>
+				<waveblock start="957440">
+					<simpleblockfile filename="e0000ce0.au" len="162304" min="-0.630615" max="0.446411" rms="0.073532"/>
+				</waveblock>
+				<waveblock start="1119744">
+					<simpleblockfile filename="e0000eaa.au" len="162304" min="-0.813019" max="0.498535" rms="0.067747"/>
+				</waveblock>
+				<waveblock start="1282048">
+					<simpleblockfile filename="e0000dbb.au" len="157696" min="-0.786865" max="0.618561" rms="0.077373"/>
+				</waveblock>
+				<waveblock start="1439744">
+					<simpleblockfile filename="e000098a.au" len="157696" min="-0.750153" max="0.416138" rms="0.075674"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
