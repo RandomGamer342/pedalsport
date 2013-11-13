@@ -101,3 +101,9 @@ nav ul li:hover > ul {
 	
 	background-color:rgb(11, 97, 164);
 }
+
+/*Navbar end*/
+
+table tr td {
+	vertical-align:top;
+}
