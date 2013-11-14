@@ -9,6 +9,10 @@ body {
 	line-height: 28px;
 }
 
+#overflowfix {
+	overflow:hidden;
+}
+
 /*No one needs to select the navigation bar*/
 nav {
 	z-index:5;
