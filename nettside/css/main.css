@@ -17,10 +17,10 @@ h1 {
 }
 
 h2 {
-	font-size:1.5vh;
-	text-align:center;
-	font-family:cooper, times new roman, times, serif;
-	text-decoration:underline;
+	font-size: 100%;
+	text-align: center;
+	font-family: cooper, times new roman, times, serif;
+	text-decoration: underline;
 }
 
 #pagecenter {
@@ -182,8 +182,11 @@ table tr td {
 }
 
 .shoptable {
-	width:80%;
+	width: 80%;
+	position: relative;
+	margin: margin-left 22%;
 }
+
 
 /* Universal */
 .bigbutton {
@@ -210,6 +213,7 @@ table tr td {
 	font-family:cooper, times new roman, times, serif;
 }
 
+
 .bigbutton li img {
 	height:32px;
 	padding:0px 15px 0px 8px;
@@ -223,6 +227,10 @@ table tr td {
 		margin-left:10%;
 		margin-right:10%;
 	}
+#pagecenter .shoptable tr th img {
+
+}
+
 
 	nav > ul {
 		margin-left:9%;
