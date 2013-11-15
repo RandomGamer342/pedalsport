@@ -1,5 +1,4 @@
 @import url("reset.css");
-@charset "iso-8859-1";
 @font-face {
 	font-family: cooper;
 	src: url('../resources/CooperBlackStd.otf');
@@ -17,10 +16,10 @@ h1 {
 }
 
 h2 {
-	font-size:1.5vh;
-	text-align:center;
-	font-family:cooper, times new roman, times, serif;
-	text-decoration:underline;
+	font-size: 100%;
+	text-align: center;
+	font-family: cooper, times new roman, times, serif;
+	text-decoration: underline;
 }
 
 #pagecenter {
@@ -140,6 +139,10 @@ nav ul li:hover > ul {
 /*Navbar end*/
 
 /*Butikk*/
+table {
+	margin:auto;
+}
+
 table tr td {
 	vertical-align:top;
 }
@@ -182,10 +185,18 @@ table tr td {
 }
 
 .shoptable {
-	width:80%;
+	width: 80%;
+	position: relative;
+	margin: margin-left 22%;
 }
 
+
 /* Universal */
+
+.center {
+	margin:0 auto;
+}
+
 .bigbutton {
 	display:block;
 	position:relative;
@@ -193,7 +204,7 @@ table tr td {
 	float:left;
 	background-color:rgb(209, 209, 209);
 	border:2px solid #000;
-	margin:5px 5px;
+	margin:5px auto;
 }
 
 .bigbutton li {
@@ -210,6 +221,7 @@ table tr td {
 	font-family:cooper, times new roman, times, serif;
 }
 
+
 .bigbutton li img {
 	height:32px;
 	padding:0px 15px 0px 8px;
@@ -223,6 +235,10 @@ table tr td {
 		margin-left:10%;
 		margin-right:10%;
 	}
+#pagecenter .shoptable tr th img {
+
+}
+
 
 	nav > ul {
 		margin-left:9%;
