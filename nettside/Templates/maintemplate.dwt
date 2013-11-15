@@ -9,6 +9,13 @@
 <!-- TemplateEndEditable -->
 <link href="../css/main.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="../img/favicon.ico">
+
+<script type="text/javascript">
+	function replaceAudio(id,content) {
+    var elems = document.getElementById(id);
+        elems.style.display = "block";
+    }
+</script>
 </head>
 
 <body>

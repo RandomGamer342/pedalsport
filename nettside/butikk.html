@@ -6,14 +6,16 @@
 <title>Pedalsport</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
-<style type="text/css">
-body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-}
-</style>
 <!-- InstanceEndEditable -->
 <link href="css/main.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="img/favicon.ico">
+
+<script type="text/javascript">
+	function replaceAudio(id) {
+    var elems = document.getElementById(id);
+        elems.style.display = "block";
+    }
+</script>
 </head>
 
 <body>
@@ -31,7 +33,7 @@ body,td,th {
 		</li>
 		<li id="logo"><a href="index.html"><img src="img/logo.png"></a></li>
 		<li><a href="Pedalbladet.html"><img src="img/magasinikon.png"></a></li>
-            <li><a href="Pedalklubben.html"><img src="img/klubbikon.png"></a></li>
+        <li><a href="Pedalklubben.html"><img src="img/klubbikon.png"></a></li>
 		<li><a href="omoss.html"><img src="img/abouticon.png"></a></li>
 	</ul>
 </nav>
@@ -50,145 +52,149 @@ body,td,th {
 
       &nbsp;
       <div class="center" style="width:700px">
-            <ul class="bigbutton"><li><a href="resources/produktmagasin.pdf">Produktmagasin som PDF</a></li><li><img src="img/download.png"></li></ul>
-            <ul class="bigbutton" style="left:10px"><li><a href="#" onclick="this.firstChild.play()"><audio src="resources/nope.wav"></audio>Hør på produktmagasinet!</a></li><li><img src="img/sound.png"></li></ul>
+            <ul class="bigbutton">
+                  <li><a href="resources/produktmagasin.pdf">Produktmagasin som PDF</a></li>
+                  <li><img src="img/download.png"></li>
+            </ul>
+            <noscript><br/><br/></noscript>
+            <ul class="bigbutton" style="left:10px">
+                  <li id="audio1" style="display:none;"><a href="#" onclick="this.firstChild.play()"><audio src="resources/nope.wav"></audio>Hør på produktmagasinet!</a></li>
+                  <noscript><li><a href="http://www.enable-javascript.com/no/" style="color:#FF0000;">Du må skru på javascript for å lytte til magasinet</a></li></noscript>
+                  <li><img onload="replaceAudio('audio1');" src="img/sound.png"></li>
+            </ul>
       </div>
 
       <br \>
       <br \>
-      <a name="Barnesykler"><h2>Barnesykler</h2></a>
+      <a name="Barnesykler"><h1>Barnesykler</h1></a>
       
-  <table width="714" class="shoptable">
+      <table>
             <tr>
-                  <th width="233" scope="col">
-                        Dynamite  20&rsquo;&rsquo; Girl 2013</th>
-                  <th width="465" scope="col">&nbsp;</th>
+                  <th class="tabletitle"><h2>Dynamite  20&rsquo;&rsquo; Girl 2013</h2></th>
+                  <th class="tabletitle">&nbsp;</th>
             </tr>
             <tr>
-                  <th height="156" scope="row">
-                        <img src="img/Jentesykkel.gif" width="198" height="120" align="left">
+                  <th>
+                        <img src="img/Jentesykkel.gif">
                   </th>
-                  <td style="vertical-align:top;">
-                        En pen og  praktisk sykkel med fine farger. Perfekt for b&aring;de landevei og terreng. Passer for jenter i alderen 8-12 &aring;r. 
+                  <td>
+                        <p>En pen og  praktisk sykkel med fine farger. Perfekt for b&aring;de landevei og terreng. Passer for jenter i alderen 8-12 &aring;r. 
                         <br>
-                        Pris: 1.699,- 
+                        <span class="b">Pris:</span> 1.699,- </p>
                   </td>
             </tr>
             <tr>
-                  <th scope="row">Fazer  16&rsquo;&rsquo; Boy</th>
-                  <td></td>
+                  <th class="tabletitle">Fazer  16&rsquo;&rsquo; Boy</th>
+                  <th class="tabletitle"></th>
             </tr>
-      <tr>
-        <th height="173" scope="row"><img src="img/Guttesykkel 16''.gif" alt="Guttete sykkel" width="219" height="151" align="left"></th>
-        <td><p>En t&oslash;ff  og holdbar sykkel som passer til
-            de fleste anledninger med t&oslash;ffe farger ogst&oslash;ttehjul  for de som trenger hjelp. Passer for gutter i alderen 6-10 &aring;r. <br>
-            </p>
-        <p>Pris: 1.799,- </p></td>
-      </tr>
-      <tr>
-        <th scope="row">Superior  Team Issue 24 Deore</th>
-        <td></td>
-      </tr>
-      <tr>
-        <th scope="row"><img src="img/Guttesykkel2.gif" alt="http://www.birksport.no/images/birksport%20images/Superior%20Team%2024%20Issue.jpg" width="207" height="114" align="left"></th>
-        <td>
-          En god  sykkel med gode bruksmuligheter;
-          
-          
-           funker bra b&aring;de p&aring; landeveien og i skog og  mark.
-           For de som er kommet forbi nybegynner.
-           Passer for gutter og jenter i  alderen 10-14 &aring;r. <br>
-            Pris: 3.599,-
-        </td>
-      </tr>
-    </table>
-    <br>
+            <tr>
+                  <th><img src="img/Guttesykkel 16''.gif" alt="Guttete sykkel"></th>
+                  <td><p>En t&oslash;ff  og holdbar sykkel som passer til
+                        de fleste anledninger med t&oslash;ffe farger ogst&oslash;ttehjul  for de som trenger hjelp. Passer for gutter i alderen 6-10 &aring;r. <br>
+                        <span class="b">Pris:</span> 1.799,-</p>
+                  </td>
+            </tr>
+            <tr>
+                  <th class="tabletitle">Superior  Team Issue 24 Deore</th>
+                  <th class="tabletitle"></th>
+            </tr>
+            <tr>
+                  <th><img src="img/Guttesykkel2.gif" alt="http://www.birksport.no/images/birksport%20images/Superior%20Team%2024%20Issue.jpg"></th>
+                  <td><p>En god  sykkel med gode bruksmuligheter;
+                        funker bra b&aring;de p&aring; landeveien og i skog og  mark.
+                        For de som er kommet forbi nybegynner.
+                        Passer for gutter og jenter i  alderen 10-14 &aring;r. <br>
+                        <span class="b">Pris:</span> 3.599,-</p>
+                  </td>
+            </tr>
+      </table>
     
-    <hr>
-    <h1><a name="Temposykler">Temposykler</a></h1>
-    <table width="100%" border="0" class="shoptable">
-      <tr>
-        <th width="226" scope="col">Norcom  Straight 1.1 2014</th>
-        <th width="334" scope="col">&nbsp;</th>
-      </tr>
-      <tr>
-        <th height="146" scope="row"><img src="img/Temposykkel.gif" alt="Temposykkel" width="219" height="145" align="left"></th>
-        <td><p>En av  markedes desidert sterkeste sykler, 
-          en temposyklers dr&oslash;m. Sykkelen er utstyr
-          med topnoch utstyr. Brukes av verdenseliten 
-          som Matt Reed og Cameron Dye. 
-        
-        </p>
-        <p>Pris: 49.999,-</p></td>
-      </tr>
-    </table>
-    &nbsp;
-    <hr>
-  <h1><a name="Landeveissykler">Landeveissykler</a></h1>
-    &nbsp;
-  <table width="400" border="0" class="shoptable">
-      <tr>
-        <th width="39%" scope="col">Fuji Altamira SL</th>
-        <th width="61%" scope="col">&nbsp;</th>
-      </tr>
-      <tr>
-        <th scope="row"><img src="img/Landeveissykkel.gif" alt="Landeveissykkel" width="217" height="131" align="left"></th>
-        <td>En flott landeveissykkel  som har alt du er ute
-     etter. Denne sykkelen veier bare 6.2kg! <br>
-Pris: 34.999,-
-&nbsp;</td>
-      </tr>
-    </table>
-  <p>&nbsp;</p>
-  <hr>
-  <h1><a name="Terrengsykler">Terrengsykler</a></h1>
-<table width="400" border="0" class="shoptable">
-  <tr>
-    <th width="38%" scope="col">Corratec  Revolution carbon terrengsykkel</th>
-    <th width="62%" scope="col">&nbsp;</th>
-  </tr>
-  <tr>
-    <th scope="row"><img src="img/Terrengsykkel1.gif" alt="Terrengsykkel" width="185" height="126" align="left"></th>
-    <td>Forskjellen  mellom god og perfekt. Denne
- sykkelen vil ta deg hvor du vil, n&aring;r du vil 
-og  hvor fort du vil. Ypperlig til b&aring;de 
-konkurranse og for de som er ekstra  dedikerte.<br>
-Pris: 14.199,-</td>
-  </tr>
-  <tr>
-    <th scope="row">Corractec X-Vert S.04</th>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th scope="row"><img src="img/Terrengsykkel2.gif" alt="Terrengsykkel2" width="179" height="111" align="left"></th>
-    <td>Perfekt  sykkel, veldesignet for rundbane og 
-mosjon. Lever opp til alle dine behov, b&aring;de  
-som mosjonist og som utd&oslash;ver.
- En sykkel vi sterkt anbefaler. <br>
-Pris: 8.999,- </td>
-  </tr>
-</table>
-<p>&nbsp;</p>
-<hr>
-<h1><a name="El-sykler">El-sykler</a></h1>
-<table width="99%" border="0" class="shoptable">
-  <tr>
-    <th width="34%" scope="col">Superior  Powerflex 24 Men</th>
-    <th width="66%" scope="col">&nbsp;</th>
-  </tr>
-  <tr>
-    <th scope="row"><img src="img/El-sykkel.gif" alt="El-sykler" width="192" height="121" align="left"></th>
-    <td> Powerflex  gir deg muligheten for et ekstra dytt 
-opp den litt tunge bakken. En meget
- tilpasninsdyktig sykkel med 24V/ 250Watt 
-motor og Panasonic Li-Ion 25,2 V PCB  batteri.<br>
-Pris: 9.999,-
-&nbsp;
-&nbsp; </td>
-  </tr>
-</table>
-<p><br>
-</p>
+      <br>
+      <h1><a name="Temposykler">Temposykler</a></h1>
+
+      <table>
+            <tr>
+                  <th class="tabletitle">Norcom  Straight 1.1 2014</th>
+                  <th class="tabletitle">&nbsp;</th>
+            </tr>
+            <tr>
+                  <th><img src="img/Temposykkel.gif" alt="Temposykkel"></th>
+                  <td><p>En av  markedes desidert sterkeste sykler, 
+                  en temposyklers dr&oslash;m. Sykkelen er utstyr
+                  med topnoch utstyr. Brukes av verdenseliten 
+                  som Matt Reed og Cameron Dye.
+                  <span class="b">Pris:</span> 49.999,-</p>
+                  </td>
+            </tr>
+      </table>
+
+      <br>
+      <h1><a name="Landeveissykler">Landeveissykler</a></h1>
+
+      <table>
+            <tr>
+                  <th class="tabletitle">Fuji Altamira SL</th>
+                  <th class="tabletitle">&nbsp;</th>
+            </tr>
+            <tr>
+                  <th><img src="img/Landeveissykkel.gif" alt="Landeveissykkel"></th>
+                  <td><p>En flott landeveissykkel  som har alt du er ute
+                  etter. Denne sykkelen veier bare 6.2kg! <br>
+                  <span class="b">Pris:</span> 34.999,-</p>
+                  </td>
+            </tr>
+      </table>
+
+      <br/>
+      <h1><a name="Terrengsykler">Terrengsykler</a></h1>
+
+      <table>
+            <tr>
+                  <th class="tabletitle">Corratec  Revolution carbon terrengsykkel</th>
+                  <th class="tabletitle">&nbsp;</th>
+            </tr>
+            <tr>
+                  <th><img src="img/Terrengsykkel1.gif" alt="Terrengsykkel"></th>
+                  <td><p>Forskjellen  mellom god og perfekt. Denne
+                  sykkelen vil ta deg hvor du vil, n&aring;r du vil 
+                  og  hvor fort du vil. Ypperlig til b&aring;de 
+                  konkurranse og for de som er ekstra  dedikerte.<br>
+                  <span class="b">Pris:</span> 14.199,-</p></td>
+            </tr>
+            <tr>
+                  <th class="tabletitle">Corractec X-Vert S.04</th>
+                  <th class="tabletitle">&nbsp;</th>
+            </tr>
+            <tr>
+                  <th><img src="img/Terrengsykkel2.gif" alt="Terrengsykkel2"></th>
+                  <td><p>Perfekt  sykkel, veldesignet for rundbane og 
+                  mosjon. Lever opp til alle dine behov, b&aring;de  
+                  som mosjonist og som utd&oslash;ver.
+                  En sykkel vi sterkt anbefaler. <br>
+                  <span class="b">Pris:</span> 8.999,-</p> 
+                  </td>
+            </tr>
+      </table>
+      
+      <br/>
+      <h1><a name="El-sykler">El-sykler</a></h1>
+
+      <table>
+            <tr>
+                  <th class="tabletitle">Superior  Powerflex 24 Men</th>
+                  <th class="tabletitle">&nbsp;</th>
+            </tr>
+            <tr>
+                  <th><img src="img/El-sykkel.gif" alt="El-sykler"></th>
+                  <td><p>Powerflex gir deg muligheten for et ekstra dytt 
+                  opp den litt tunge bakken. En meget
+                  tilpasninsdyktig sykkel med 24V/ 250Watt 
+                  motor og Panasonic Li-Ion 25,2 V PCB batteri.<br>
+                  <span class="b">Pris:</span> 9.999,-</p>
+                  </td>
+            </tr>
+      </table>
+      <br>
 </div>
 <!-- InstanceEndEditable -->
 </body>

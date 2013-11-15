@@ -6,6 +6,20 @@
 
 body {
 	line-height: 28px;
+	background-color: #D1D1D1;
+
+background: #d1d1d1; /* Old browsers */
+background: -moz-linear-gradient(left,  #d1d1d1 0%, #9ebbd1 15%, #66a3d2 20%, #66a3d2 80%, #9ebbd1 85%, #d1d1d1 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d1d1d1), color-stop(15%,#9ebbd1), color-stop(20%,#66a3d2), color-stop(80%,#66a3d2), color-stop(85%,#9ebbd1), color-stop(100%,#d1d1d1)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#66a3d2 80%,#9ebbd1 85%,#d1d1d1 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#66a3d2 80%,#9ebbd1 85%,#d1d1d1 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#66a3d2 80%,#9ebbd1 85%,#d1d1d1 100%); /* IE10+ */
+background: linear-gradient(to right,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#66a3d2 80%,#9ebbd1 85%,#d1d1d1 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#d1d1d1',GradientType=1 ); /* IE6-9 */
+
+
+
+
 }
 
 h1 {
@@ -25,15 +39,6 @@ h2 {
 #pagecenter {
 	margin-left:4%;
 	margin-right:4%;
-
-	background: #d1d1d1; /* Old browsers */
-	background: -moz-linear-gradient(left,  #d1d1d1 0%, #66a8d2 20%, #66a8d2 80%, #e5e5e5 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d1d1d1), color-stop(20%,#66a8d2), color-stop(80%,#66a8d2), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  #d1d1d1 0%,#66a8d2 20%,#66a8d2 80%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  #d1d1d1 0%,#66a8d2 20%,#66a8d2 80%,#e5e5e5 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  #d1d1d1 0%,#66a8d2 20%,#66a8d2 80%,#e5e5e5 100%); /* IE10+ */
-	background: linear-gradient(to right,  #d1d1d1 0%,#66a8d2 20%,#66a8d2 80%,#e5e5e5 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 */
 
 }
 
@@ -140,11 +145,54 @@ nav ul li:hover > ul {
 
 /*Butikk*/
 table {
-	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	border:2px solid #000;
+	width:80%;
 }
 
 table tr td {
 	vertical-align:top;
+	border-bottom:2px solid #000;
+}
+
+table tr th {
+	border-right:2px solid #000;
+	border-bottom:2px solid #000;
+	width:75%;
+}
+
+table tr th:first-child {
+	width:25%;
+}
+
+table img {
+	display:block;
+	width:75%;
+	padding:5px;
+	margin:0 auto;
+}
+
+p {
+	margin:6px 14px;
+}
+
+.b {
+	vertical-align: baseline;
+	font-weight:bold;
+}
+
+.tabletitle {
+	background-color:rgb(63, 146, 210);
+	border-right:none;
+}
+
+hr {
+	height:2px;
+	border:none;
+	color:#000;
+	background-color:#000;
 }
 
 #shoplist {
@@ -184,13 +232,6 @@ table tr td {
 	border-left:2px solid #000;
 }
 
-.shoptable {
-	width: 80%;
-	position: relative;
-	margin: margin-left 22%;
-}
-
-
 /* Universal */
 
 .center {
@@ -204,7 +245,12 @@ table tr td {
 	float:left;
 	background-color:rgb(209, 209, 209);
 	border:2px solid #000;
-	margin:5px auto;
+	margin:0 auto;
+	margin-top:-18px;
+}
+
+.bigbutton:hover {
+	background-color:rgb(102, 163, 210);
 }
 
 .bigbutton li {
