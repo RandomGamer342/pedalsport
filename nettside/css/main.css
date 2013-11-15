@@ -1,5 +1,4 @@
 @import url("reset.css");
-@charset "iso-8859-1";
 @font-face {
 	font-family: cooper;
 	src: url('../resources/CooperBlackStd.otf');
@@ -140,6 +139,10 @@ nav ul li:hover > ul {
 /*Navbar end*/
 
 /*Butikk*/
+table {
+	margin:auto;
+}
+
 table tr td {
 	vertical-align:top;
 }
@@ -189,6 +192,12 @@ table tr td {
 
 
 /* Universal */
+
+.center {
+	margin:0 auto;
+	width:303px;
+}
+
 .bigbutton {
 	display:block;
 	position:relative;
@@ -196,7 +205,7 @@ table tr td {
 	float:left;
 	background-color:rgb(209, 209, 209);
 	border:2px solid #000;
-	margin:5px 5px;
+	margin:5px auto;
 }
 
 .bigbutton li {
