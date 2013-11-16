@@ -15,21 +15,23 @@ background: -webkit-linear-gradient(left,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#6
 background: -o-linear-gradient(left,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#66a3d2 80%,#9ebbd1 85%,#d1d1d1 100%); /* Opera 11.10+ */
 background: -ms-linear-gradient(left,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#66a3d2 80%,#9ebbd1 85%,#d1d1d1 100%); /* IE10+ */
 background: linear-gradient(to right,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#66a3d2 80%,#9ebbd1 85%,#d1d1d1 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#d1d1d1',GradientType=1 ); /* IE6-9 */
-
-
-
-
-}
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#d1d1d1',GradientType=1 ); /* IE6-9 */}
 
 h1 {
+	font-family:cooper, times new roman, times, serif;
+	font-size:4vh;
+	text-align:center;
+	text-decoration:underline;
+}
+
+h2 {
 	font-family:cooper, times new roman, times, serif;
 	font-size:2vh;
 	text-align:center;
 	text-decoration:underline;
 }
 
-h2 {
+h3 {
 	font-size: 100%;
 	text-align: center;
 	font-family: cooper, times new roman, times, serif;
@@ -178,6 +180,10 @@ p {
 	margin:6px 14px;
 }
 
+.c {
+	text-align:center;
+}
+
 .b {
 	vertical-align: baseline;
 	font-weight:bold;
@@ -195,29 +201,29 @@ hr {
 	background-color:#000;
 }
 
-#shoplist {
+.shoplist {
 	width:100%;
 	float:left;
 	background-color:rgb(63, 146, 210);
 	border-bottom:2px solid #000;
 }
 
-#shoplist ul {
+.shoplist ul {
 	list-style:none;
 	margin:0 8%;
 	background-color:rgb(63, 146, 210);
 	text-align:center;
 }
 
-#shoplist li {
+.shoplist li {
 	float:left;
 }
 
-#shoplist li:hover {
+.shoplist li:hover {
 	background-color:rgb(209, 209, 209);
 }
 
-#shoplist li a {
+.shoplist li a {
 	position:relative;
 	display:block;
 	padding:8px 25px;
@@ -228,14 +234,40 @@ hr {
 	border-right:2px solid #000;
 }
 
-#shoplist li:first-child a {
+.shoplist li:first-child a {
 	border-left:2px solid #000;
 }
+
+
+/*Integrated maps*/
+.mapwrap { 
+	width: 60%; 
+	height: 600px; 
+	margin:0 25%; 
+}
+.map {
+	width: 60%; 
+	height: 75%; 
+	border: 1px solid black;
+
+    zoom: 1.5;
+    -moz-transform: scale(1.5);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(1.5);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(1.5);
+    -webkit-transform-origin: 0 0;
+}
+
 
 /* Universal */
 
 .center {
 	margin:0 auto;
+}
+
+.imgcenter {
+	display:block;
 }
 
 .bigbutton {
@@ -290,7 +322,7 @@ hr {
 		margin-left:9%;
 	}
 
-	#shoplist ul {
+	.shoplist ul {
 		margin-left:14%;
 	}
 }
@@ -305,7 +337,7 @@ hr {
 		margin-left:13%;
 	}
 
-	#shoplist ul {
+	.shoplist ul {
 		margin-left:15%;
 	}
 }
@@ -320,7 +352,7 @@ hr {
 		margin-left:16%;
 	}
 
-	#shoplist ul {
+	.shoplist ul {
 		margin-left:19%;
 	}
 }
@@ -335,7 +367,7 @@ hr {
 		margin-left:20.5%;
 	}
 
-	#shoplist ul {
+	.shoplist ul {
 		margin-left:23%;
 	}
 }
@@ -350,7 +382,7 @@ hr {
 		margin-left:25%;
 	}
 
-	#shoplist ul {
+	.shoplist ul {
 		margin-left:27.5%;
 	}
 }
@@ -362,10 +394,15 @@ hr {
 	}
 
 	nav > ul {
-		margin-left:30%;
+		margin-left:32%;
 	}
 
-	#shoplist ul {
-		margin-left:32%;
+	.shoplist ul {
+		margin-left:34%;
+	}
+
+	/*override shoplist values*/
+	.turer ul {
+		margin-left:35.8%;
 	}
 }
