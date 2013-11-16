@@ -15,7 +15,8 @@ background: -webkit-linear-gradient(left,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#6
 background: -o-linear-gradient(left,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#66a3d2 80%,#9ebbd1 85%,#d1d1d1 100%); /* Opera 11.10+ */
 background: -ms-linear-gradient(left,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#66a3d2 80%,#9ebbd1 85%,#d1d1d1 100%); /* IE10+ */
 background: linear-gradient(to right,  #d1d1d1 0%,#9ebbd1 15%,#66a3d2 20%,#66a3d2 80%,#9ebbd1 85%,#d1d1d1 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#d1d1d1',GradientType=1 ); /* IE6-9 */}
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#d1d1d1',GradientType=1 ); /* IE6-9 */
+}
 
 h1 {
 	font-family:cooper, times new roman, times, serif;
@@ -264,6 +265,9 @@ hr {
     -webkit-transform-origin: 0 0;
 }
 
+.gmap {
+	margin:0 20%;
+}
 
 /* Universal */
 
