@@ -189,6 +189,11 @@ p {
 	font-weight:bold;
 }
 
+.i {
+	vertical-align: baseline;
+	font-style: italic;
+}
+
 .tabletitle {
 	background-color:rgb(63, 146, 210);
 	border-right:none;
