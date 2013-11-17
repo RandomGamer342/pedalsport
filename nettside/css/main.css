@@ -1,7 +1,14 @@
 @import url("reset.css");
 @font-face {
-	font-family: cooper;
-	src: url('../resources/CooperBlackStd.otf');
+    font-family: cooper;
+    src: url('../resources/CooperBlackStd.otf');
+    src: url('../resources/cooperblackstd-webfont.eot');
+    src: url('../resources/cooperblackstd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../resources/cooperblackstd-webfont.woff') format('woff'),
+         url('../resources/cooperblackstd-webfont.ttf') format('truetype'),
+         url('../resources/cooperblackstd-webfont.svg#cooper') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -253,10 +260,11 @@ hr {
 
 /*Integrated maps*/
 .mapwrap { 
-	width: 60%; 
+	width: 70%; 
 	height: 600px; 
-	margin:0 25%; 
+	margin:0 20%; 
 }
+
 .map {
 	width: 60%; 
 	height: 75%; 
@@ -269,6 +277,12 @@ hr {
     -o-transform-origin: 0 0;
     -webkit-transform: scale(1.5);
     -webkit-transform-origin: 0 0;
+}
+
+.gmapwrap { 
+	width: 60%; 
+	height: 600px; 
+	margin:0 25%; 
 }
 
 .gmap {
