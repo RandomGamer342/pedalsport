@@ -15,7 +15,6 @@ background: -webkit-linear-gradient(left,  #d1d1d1 0%,#cecece 12%,#eeeeee 20%,#e
 background: -o-linear-gradient(left,  #d1d1d1 0%,#cecece 12%,#eeeeee 20%,#eeeeee 80%,#cecece 88%,#d1d1d1 100%); /* Opera 11.10+ */
 background: -ms-linear-gradient(left,  #d1d1d1 0%,#cecece 12%,#eeeeee 20%,#eeeeee 80%,#cecece 88%,#d1d1d1 100%); /* IE10+ */
 background: linear-gradient(to right,  #d1d1d1 0%,#cecece 12%,#eeeeee 20%,#eeeeee 80%,#cecece 88%,#d1d1d1 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#d1d1d1',GradientType=1 ); /* IE6-9 */
 }
 
 h1 {
@@ -164,6 +163,13 @@ table tr th {
 	border-right:2px solid #000;
 	border-bottom:2px solid #000;
 	width:75%;
+}
+
+th {
+	font-size: 100%;
+	text-align: center;
+	font-family: cooper, times new roman, times, serif;
+	text-decoration: underline;
 }
 
 table tr th:first-child {
