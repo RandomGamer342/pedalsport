@@ -21,7 +21,15 @@
 <body>
 <nav>
 	<ul>
-		<li><a href="butikk.html"><img src="../img/butikkicon.png" alt="Butikk"></a></li>
+		<li><a href="butikk.html"><img src="../img/butikkicon.png" alt="Butikk"></a>
+			<ul>
+				<li><a href="butikk.html#Barnesykler">Barnesykler</a></li>
+				<li><a href="butikk.html#Temposykler">Temposykler</a></li>
+				<li><a href="butikk.html#Landeveissykler">Landeveissykler</a></li>
+				<li><a href="butikk.html#Terrengsykler">Terrengsykler</a></li>
+				<li><a href="butikk.html#El-sykler">El-sykler</a></li>
+			</ul>
+		</li>
 		<li><a href="verksted.html"><img src="../img/verkstedicon.png" alt="Verksted"></a></li>
 		<li><a href="sykkelsti.html"><img src="../img/mapicon.png" alt="Sykkelturer"></a>
 			<ul>

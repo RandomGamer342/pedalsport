@@ -11,9 +11,11 @@
     font-style: normal;
 }
 
+
+/*Background*/
 body {
-	line-height: 28px;
-	background-color: #D1D1D1;
+line-height: 28px;
+background-color: #D1D1D1;
 
 background: #d1d1d1; /* Old browsers */
 background: -moz-linear-gradient(left,  #d1d1d1 0%, #cecece 12%, #eeeeee 20%, #eeeeee 80%, #cecece 88%, #d1d1d1 100%); /* FF3.6+ */
@@ -24,6 +26,8 @@ background: -ms-linear-gradient(left,  #d1d1d1 0%,#cecece 12%,#eeeeee 20%,#eeeee
 background: linear-gradient(to right,  #d1d1d1 0%,#cecece 12%,#eeeeee 20%,#eeeeee 80%,#cecece 88%,#d1d1d1 100%); /* W3C */
 }
 
+
+/*Fonts*/
 h1 {
 	font-family:cooper, times new roman, times, serif;
 	font-size:4vh;
@@ -172,15 +176,15 @@ table tr th {
 	width:75%;
 }
 
+table tr th:first-child {
+	width:25%;
+}
+
 th {
 	font-size: 100%;
 	text-align: center;
 	font-family: cooper, times new roman, times, serif;
 	text-decoration: underline;
-}
-
-table tr th:first-child {
-	width:25%;
 }
 
 table img {
